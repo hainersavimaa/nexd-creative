@@ -41,7 +41,7 @@
                       @cancel-creative="cancelCreative"
                       v-if="editing || creating"></creatives-form>
       <ul class="creatives-list" v-if="!editing && !creating">
-        <li v-if="sortedCreatives.length == 0">No Creatives Found</li>
+        <li class="no-creatives-list-items" v-if="sortedCreatives.length == 0">No Creatives Found</li>
         <li class="creatives-list__item" v-for="(creative, index) in sortedCreatives">
           <span class="creative-list__name">{{ creative.name }}:</span>
           <span class="creative-list__specs">{{ creative.device }} - {{ creative.width }} x {{ creative.height }}</span>

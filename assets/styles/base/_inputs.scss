@@ -10,11 +10,9 @@ input {
     color: $muted;
   }
 }
-
 label {
   font-size: 14px;
 }
-
 // Hide number filed arrows
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {

@@ -4,35 +4,28 @@
 .hidden {
   display: none;
 }
-
 body {
   margin: 0;
   padding: 0;
   background: $main1;
 }
-
 .creatives-container {
   padding: 16px;
 }
-
 .row {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-
 .col-sm-100 {
   flex: 0 0 100%;
 }
-
 .col-sm-40 {
   flex: 0 0 40%;
 }
-
 .col-sm-50 {
   flex: 0 0 50%;
 }
-
 .col-sm-60 {
   flex: 0 0 60%
 }
