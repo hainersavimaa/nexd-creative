@@ -6,9 +6,9 @@ This is a test task application for Nexd which is made with VueJS CDN. I chose t
 
 [https://hainersavimaa.github.io/nexd-creative](https://hainersavimaa.github.io/nexd-creative)
 
-## Installation
+## Usage
 
-Simply open index.html
+Simply open index.html. All VueJS logic is in assets/scripts/app.js file. Use some SCSS compiler to compile main.scss to main.css.
 
 ## Author
 
