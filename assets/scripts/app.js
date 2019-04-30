@@ -219,6 +219,7 @@ var creatives = new Vue({
     }
   },
   mounted: function() {
+    // hide #creatives until Vue instance in mounted to avoid split-second flickering of unrendered DOM
     document.querySelector('.creatives-container').style.display = 'block'
   }
 });
