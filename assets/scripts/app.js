@@ -217,5 +217,8 @@ var creatives = new Vue({
         }
       })
     }
+  },
+  mounted: function() {
+    document.querySelector('.creatives-container').style.display = 'block'
   }
 });
