@@ -1,0 +1,23 @@
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #3E4A5E;
+  border-radius: 3px;
+  background: #3E4A5E;
+  color: $white;
+  &::placeholder {
+    color: $muted;
+  }
+}
+
+label {
+  font-size: 14px;
+}
+
+// Hide number filed arrows
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.sorting {
+  padding: 9px 0 14px;
+  border-bottom: 1px solid #54637C;
+}
+.sorting__row {
+  display: flex;
+  align-items: center;
+  p {
+    flex: 0 0 104px;
+    margin-right: 16px;
+    font-weight: 500;
+  }
+  .btn {
+    margin: 10px 8px;
+  }
+}

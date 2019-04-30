@@ -1,0 +1,24 @@
+.creatives-list {
+  list-style: none;
+  padding: 0;
+}
+.creatives-list__item {
+  padding: 8px 0;
+}
+.creative-list__name {
+  color: $accent;
+}
+.creative-list__name, .creative-list__specs {
+  display: inline-block;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+.creative-list-functions {
+  margin-left: 8px;
+  span{
+    padding: 0 2px;
+    color: $main2;
+    cursor: pointer;
+  }
+}

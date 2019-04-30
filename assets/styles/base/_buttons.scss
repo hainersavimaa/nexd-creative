@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  width: 104px;
+  height: 32px;
+  padding: 0;
+  border-radius: 3px;
+  outline: 0;
+  border: 0;
+  background: $muted;
+  color: $white;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn--main {
+  background: $main2;
+}
+.btn--secondary {
+  background: transparent;
+  color: $accent;
+}
+.btn[disabled] {
+  background: $muted;
+  cursor: not-allowed;
+}
